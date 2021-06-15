@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="CSS/ALLFiles.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="almostbody">
+    <%- include ("Header.ejs") %>
+   <div class="intro">
+       <span class="fa fa-question-circle fa-xs"> If found Nothing then bring the cursor to the center? </span>
+ <!---   <p class="invisible">Didn't you find  where to enter your details, Ok Ok!!</p>
+    <p class="invisible">Just Scroll the mouse pointer to the center of the screen or page!!</p></span> -->
+   </div>
+    <div class="details">
+        <% if(mist.length>0){ %>
+        <% mist.forEach(mistake=>{ %>
+        <li> <%= mistake %> </li>
+        <% });} %>
+        <form action="/login" method="post">
+            <p>Enter the Details Required</p>
+            <input type="text" name="UserName" placeholder="* Name"> <br>
+            <input type="text" name="UserEmail" placeholder="* Email Id"> <br>
+            <input type="text" name="UserDob" placeholder="* DOB"> <br>
+            <input type="text" name="UserAge" placeholder="* Age"> <br>
+            <input type="text" name="UserGender" placeholder="* Gender"> <br>
+            <input type="text" name="UserPhoneNo" placeholder="* Phone No"> <br>
+            <input type="text" name="UserClass" placeholder="* Standard"> <br>
+            <input type="password" name="UserPass" placeholder="* Password"> <br>
+            <input type="submit" value="SignUp">
+        </form>
+    </div>
+
+</div>
+
+<%- include("Footer.ejs") %>
+</body>
+</html>

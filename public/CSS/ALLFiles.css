@@ -1,0 +1,444 @@
+/* From here onwards for Login page */
+.onepage
+{
+   background-image: url("http://chitrahandicraft.com/wp-content/uploads/2019/02/login-page-background-images-hd-10.jpg") ;
+    background-repeat: no-repeat ;
+    background-position: top;
+    background-size: cover;
+    /*margin: 250px 250px 250px 250px;*/
+    padding-top: 12px;
+    padding-bottom: 50px;
+}
+
+.taking
+{
+  /* background-color: black;*/
+    clear: left;
+   background-image: url("https://static.vecteezy.com/system/resources/previews/001/630/975/non_2x/modern-dark-abstract-background-free-vector.jpg");
+   background-size: contain;
+   border-radius: 20px;
+   height:534px;
+   width:400px;
+   margin:0 auto;
+    }
+
+.login form{
+   padding-top: 20px;
+   padding-left: 30px;
+   padding-bottom: 52px;
+   margin-right: 50px;
+   border: 15px solid blue;
+   border-radius: 100%;
+
+}
+
+
+.taking a{
+    border: 5px solid darkblue;
+    background-color: yellow;
+    font-size: 20px;
+    margin-left: 145px;
+    color: red;
+    padding: 10px 25px 10px 25px;
+
+}
+
+.login
+{
+  /* padding-top: 150px; */
+   padding-left: 55px;
+   padding-top: 80px;
+
+
+}
+
+.login input
+{
+   margin-bottom: 10px;
+   padding-left: 25px;
+   padding-bottom: 20px;
+   padding-right: 25px;
+   padding-top: 10px;
+}
+
+.setting input
+{
+   width:200px;
+    margin-bottom: 42px;
+}
+
+.setting:hover
+{
+    pointer:cursor;
+    opacity:0.5;
+}
+/*
+.setting:active
+{
+    background-color: aqua;
+}*/
+
+B
+{
+   color: red;
+}
+
+/* From here onwards for Signup page */
+
+
+.almostbody
+{
+    background-image: url("https://cdn.mos.cms.futurecdn.net/KMetFQX5UXdhydvbBzUxDA-1200-80.jpg");
+    background-size: cover;
+    height:700px;
+    padding-top: 10px;
+    padding-left: 50px;
+
+}
+
+.intro
+{
+    clear: left;
+}
+
+.fa p
+{
+    opacity: 0;
+    background-color: white;
+    width:150px;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.fa-question-circle
+{
+    color: red;
+
+}
+/* This can play a major role while making an awesome website!! So think whenever you get some time about it so that things can be sorted
+.fa p:hover
+{
+    color:blue;
+    opacity: 1;
+}
+*/
+
+/*
+.almostbody
+{
+    position: relative;
+}
+*/
+.details
+{
+opacity: 0;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+/*
+.details
+{
+
+}*/
+
+.details form
+{
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.details input
+{
+    margin-bottom: 10px;
+    padding: 15px 20px;
+}
+
+.details:hover,.details p
+{
+    opacity:1;
+}
+
+/* From here RootPage starts */
+.for_image{
+    height:700px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRib271X_fl1LQwUfyIh8joYR_as87AUv01S4Ajc_tT2rzOK1sZJigZ0gquWw-ndlj1lyA&usqp=CAU");
+    background-size: cover;
+}
+
+.header{
+    clear: left;
+    width:620px;
+    margin: 0 auto;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 2px solid red;
+}
+
+.contents img{
+    float: left;
+    height: 450px;
+    padding: 15px;
+}
+
+.contents p {
+    text-align: center;
+    display:block;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.contents h2
+{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+.red_color
+{
+    color:red;
+
+}
+
+.contents a {
+    border: 3px solid Green;
+    background-color: yellow;
+    font-size: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    margin-left: 460px;
+}
+
+
+.contents a:hover{
+    opacity: 0.5;
+    cursor:pointer;
+
+}
+
+/* From here Selection-page starts */
+.header2 p
+{
+    float: left;
+    font-size: 20px;
+}
+
+.space
+{
+    padding: 10px;
+}
+
+.header2 li{
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+    font-size:15px;
+    margin-top: 30px;
+}
+
+.for_bg
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRib271X_fl1LQwUfyIh8joYR_as87AUv01S4Ajc_tT2rzOK1sZJigZ0gquWw-ndlj1lyA&usqp=CAU");
+    height: 100%;
+    background-size: cover;
+}
+
+.Entry{
+    clear: left;
+    width:500px;
+    margin:0 auto;
+}
+
+.Entry h1,h2,form{
+    text-align: center;
+}
+
+.Entry img{
+    height:300px;
+    width:300px;
+    margin-left: 100px;
+}
+
+.need-gap{
+    margin-top: 10px;
+    weight:40px;
+    height:40px;
+    padding: 10px 20px;
+    background-color: blue;
+}
+
+.need-gap:hover
+{
+    opacity:0.6;
+    cursor:pointer;
+}
+
+/* From here Insertion-page Starts*/
+
+.Entry2 h1{
+    clear: left;
+    padding-bottom: 50px;
+    font-size: 60px;
+}
+
+.Entry2
+{
+    width:700px;
+    margin: 0 auto;
+}
+
+.Entry2 h1,p{
+    text-align: center;
+}
+
+.Entry2 p{
+    font-size:20px;
+}
+
+.using-relative
+{
+    float: left;
+}
+
+.neek input
+{
+    padding: 5px;
+}
+
+.neek
+{
+    clear: left;
+}
+
+.neek textarea
+{
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.padding
+{
+    padding-left: 50px;
+}
+
+.neek p{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.using-relative p
+{
+    width: 200px;
+    border: 2px solid red ;
+    background-color: white;
+    position: relative;
+    left:50px;
+    bottom:40px;
+    opacity: 0;
+    cursor:default;
+    margin-right: 8px;
+}
+
+.using-relative label{
+    font-size: 20px;
+}
+
+.using-relative p:hover{
+    opacity: 1;
+    transition: opacity 4.5s;
+    /*transition-delay: 2s;*/
+}
+
+.btn-of-nex-pag input{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: yellow;
+}
+
+.footer
+{
+    background-color: black;
+    color: white;
+}
+
+.btn-of-nex-pag input:hover{
+    opacity: 0.6;
+    cursor:pointer;
+}
+
+/* From here Revision-page starts */
+
+.Entry3
+{
+    clear: left;
+    width: 600px;
+    margin: 0 auto;
+}
+.for-a
+{
+    font-size: 18px;
+    border: 2px solid Red;
+    background-color: lightgreen;
+    width:65px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.jscode
+{
+    clear: left;
+}
+
+.Entry3 h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.Entry3 img{
+    height: 300px;
+    weight:200px;
+    margin-left: 100px;
+}
+
+.Entry3 p{
+    font-size: 25px;
+}
+
+.entry-subj-topic
+{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    float: left;
+}
+
+.entry-subj-topic input
+{
+    padding: 5px;
+}
+
+.break input{
+    padding: 5px;
+    background-color: green;
+    color:white;
+
+}
+
+.break input:hover{
+    cursor:pointer;
+    opacity:0.6;
+}
+
+.Entry3 form
+{
+    margin-bottom: 25px;
+}

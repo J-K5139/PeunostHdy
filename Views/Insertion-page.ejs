@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login-page</title>
+    <link rel="stylesheet" href="CSS/ALLFiles.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="for_bg">
+    <%- include ("Header.ejs") %>
+<div class="Entry2">
+    <h1>Welcome, <%= users %></h1>
+    <p>Which of the following types would you like to use?</p>
+    <form action="/insertionpage" method="post">
+        <div class="using-relative">
+            <li>1. Formula <span class="fa fa-question-circle"></span></li>
+
+            <p>Write the formula!!</p>
+        </div>
+        <div class="using-relative">
+            <li>2. Definition <span class="fa fa-question-circle"></span></li>
+
+            <p>Write the definition</p>
+        </div>
+        <div class="using-relative">
+            <li>3. Working <span class="fa fa-question-circle"></span></li>
+
+            <p>Write the working!!</p>
+        </div>
+        <div class="neek">
+        <p>Subject:- </p>
+            <input type="text" name="usersubj">
+            <p>Topic:- </p>
+            <input type="text" name="usertopic"> <br>
+            <p>Formula:- </p>
+            <textarea name="userfor"></textarea>
+            <p>Definition:- </p>
+            <textarea name="userdef"> </textarea><br>
+            <p>Working:-</p>
+            <textarea name="userwork"></textarea>
+        </div>
+        <div class="btn-of-nex-pag">
+            <input type="submit" value="Next">
+        </div>
+    </form>
+</div>
+</div>
+<div class="for-a">
+    <a href="/selectionpage">Go Back</a>
+</div>
+<%- include("Footer.ejs") %>
+</body>
+</html>

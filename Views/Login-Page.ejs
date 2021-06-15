@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/ALLFiles.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="onepage">
+    <div class="header2">
+        <p>Symbol</p>
+        <ul>
+            <li><a href="#footer">About</a></li>
+        </ul>
+    </div>
+<div class="taking">
+
+    <div class="login">
+
+        <form action="/login" method="post">
+            <div class="note"> <%=console.log(not)%> <%=not%> </div>
+            <input  type="text" placeholder="Name" name="Username"><br>
+            <input type="password" placeholder="Password" name="Userpass"><br>
+            <input type="checkbox" value="unchecked"> <B>Remember Me</B><br>
+            <div class="setting"><input type="submit" value="Login">
+            </div>
+        </form>
+        <br>
+
+
+    </div>
+    <a href="/signup">Signup</a>
+</div>
+</div>
+<%- include("Footer.ejs") %>
+</body>
+</html>

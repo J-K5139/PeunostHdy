@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login-page</title>
+    <link rel="stylesheet" href="CSS/ALLFiles.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="for_bg">
+    <%- include ("Header.ejs") %>
+    <div class="Entry3">
+        <h1>Welcome, <%= user %></h1>
+        <img src="https://www.quotemaster.org/images/25/251ae57842815b946f89ec6d621f3fa3.jpg" alt="It's never too late to Revise!!">
+        <p>Enter the details of the subject you want to revise</p>
+        <form action="/revisionpage" method="post">
+            <div class="entry-subj-topic">
+                <label>Subject:-</label>
+                <input type="text" name="usersub">
+
+            </div>
+            <div class="entry-subj-topic">
+                <label>Topic:-</label>
+                <input type="text" name="usertop">
+            </div>
+            <br><br><br><br>
+            <div class="break">
+            <input type="submit" value="Search">
+            </div>
+        </form>
+    </div><div class="jscode">
+    <% if(result.length>0){ %>
+    <% result.forEach(rest=>{%>
+        <%= "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------" %>
+            <br>
+      &nbsp; |&emsp; <%="Name"%>  &emsp;|
+        &emsp; <%="Subject"%> &emsp;|
+        &emsp; <%="Topic"%> &emsp;&emsp;|
+        &emsp; <%="Formula"%> &emsp;&emsp; |
+        &emsp; <%="Definition"%> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+        &emsp; <%="Working"%> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| <br>
+     &nbsp;   | <%= rest.Name%> &emsp;&emsp; |
+        &emsp;  <%=rest.Subject%> &emsp; |
+        &emsp;   <%=rest.Topic%>&emsp; |
+        &emsp;   <%=rest.Formula%> &emsp;|
+        &emsp;   <%=rest.Definition%> &emsp;|
+        &emsp;   <%=rest.Working%> &emsp;|
+            <br><br>
+    <%})%>
+    <%}%>
+    </div>
+    <div class="for-a">
+        <a href="/selectionpage">Go Back</a>
+    </div>
+</div>
+<%- include("Footer.ejs") %>
+</body>
+</html>

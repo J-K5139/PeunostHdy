@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login-page</title>
+    <link rel="stylesheet" href="CSS/ALLFiles.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="for_bg">
+    <%- include ("Header.ejs") %>
+<div class="Entry">
+    <h1>Welcome, <%= users %></h1>
+    <img src="https://slidetodoc.com/presentation_image_h/df9da9e24501c19555f9811a5c59487c/image-31.jpg" alt="Hope You Learned Something NEW!!">
+    <h2>What do you want to do now?</h2>
+    <ul>
+        <li>1. Insertion</li>
+        <li>2. Revision</li>
+    </ul>
+    <p>Write the procedure you want ?</p>
+    <form action="/selectionpage" method="post">
+
+        <input type="text" id="under" name="under">
+        <p>* For Revision write the password!!</p>
+       <% if(err.length>0){ %>
+            <% err.forEach(mistake=>{ %>
+                <li> <%= mistake %> </li>
+          <% });} %>
+        <input type="password" name="userpassword">
+        <br>
+        <input  class="need-gap" type="submit" value="Next">
+    </form>
+</div>
+</div>
+<%- include("Footer.ejs") %>
+</body>
+</html>
